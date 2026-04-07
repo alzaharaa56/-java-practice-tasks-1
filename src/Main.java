@@ -66,14 +66,19 @@ public class Main {
 
        // System.out.println("rea" + Task24.less20(n24));
 
-        System.out.print("morning now(true/false): ");
-        boolean morning = scanner.nextBoolean();
-        System.out.print("mather cal (true/false): ");
-        boolean mom = scanner.nextBoolean();
-        System.out.print("sleep (true/false): ");
-        boolean asleep = scanner.nextBoolean();
+        //System.out.print("morning now(true/false): ");
+        //boolean morning = scanner.nextBoolean();
+        //System.out.print("mather cal (true/false): ");
+       // boolean mom = scanner.nextBoolean();
+        //System.out.print("sleep (true/false): ");
+       // boolean asleep = scanner.nextBoolean();
 
-        System.out.println("answer" + Task25.answerCell(morning, mom, asleep));
+        //System.out.println("answer" + Task25.answerCell(morning, mom, asleep));
+
+        System.out.print("enter num: ");
+        int n26 = scanner.nextInt();
+
+        System.out.println("output " + Task26.fizzString2(n26));
 
 
 
