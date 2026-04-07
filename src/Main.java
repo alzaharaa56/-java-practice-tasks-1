@@ -50,12 +50,16 @@ public class Main {
 
         //System.out.println("output" + "  "+ Task21.squirrelPlay(temp, isSummer));
 
-        System.out.print("day (0-6)");
-        int day = scanner.nextInt();
-        System.out.print("ARE YOU ON VACATION (true/false): ");
-        boolean isVacation = scanner.nextBoolean();
+       // System.out.print("day (0-6)");
+       // int day = scanner.nextInt();
+        //System.out.print("ARE YOU ON VACATION (true/false): ");
+        //boolean isVacation = scanner.nextBoolean();
 
-        System.out.println("alarm clock " + Task22.alarmClock(day, isVacation));
+       // System.out.println("alarm clock " + Task22.alarmClock(day, isVacation));
+        System.out.print("enter num: ");
+        int n = scanner.nextInt();
+
+        System.out.println("private number" + Task23.specialEleven(n));
 
 
 
