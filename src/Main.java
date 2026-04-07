@@ -36,12 +36,19 @@ public class Main {
 
        // System.out.println("output" + Task19.redTicket(a, b, c));
 
-        System.out.print("enter num1 (10-99 )");
-        int num1 = scanner.nextInt();
-        System.out.print("enter num2 (99 -10)");
-        int num2 = scanner.nextInt();
+       // System.out.print("enter num1 (10-99 )");
+       // int num1 = scanner.nextInt();
+       // System.out.print("enter num2 (99 -10)");
+        //int num2 = scanner.nextInt();
 
-        System.out.println("output " + Task20.shareDigit(num1, num2));
+        //System.out.println("output " + Task20.shareDigit(num1, num2));
+
+        System.out.print("TEMPERATURE ");
+        int temp = scanner.nextInt();
+        System.out.print("CHOOSE (true/false): ");
+        boolean isSummer = scanner.nextBoolean();
+
+        System.out.println("output" + "  "+ Task21.squirrelPlay(temp, isSummer));
 
 
 
