@@ -1,4 +1,4 @@
-
+import java.util.Scanner;
 
 public class Main {
     private Task17 Task17;
@@ -17,16 +17,28 @@ public class Main {
         // System.out.println("output " + program.inOrder(1, 2, 1, false));
         //System.out.println("output " + program.inOrder(1, 1, 2, true));
 
-        Task18 task18 = new Task18();
+       // Task18 task18 = new Task18();
 
 
-        System.out.println("Result 1: " + task18.lessBy10(1, 7, 11));
-        System.out.println("Result 2: " + task18.lessBy10(1, 7, 10));
-        System.out.println("Result 3: " + task18.lessBy10(11, 1, 7));
+       // System.out.println("Result 1: " + task18.lessBy10(1, 7, 11));
+       // System.out.println("Result 2: " + task18.lessBy10(1, 7, 10));
+       // System.out.println("Result 3: " + task18.lessBy10(11, 1, 7));
+
+
+
+        Scanner scanner=new Scanner(System.in);
+        System.out.print("enter a  ");
+        int a = scanner.nextInt();
+        System.out.print("enter b  ");
+        int b = scanner.nextInt();
+        System.out.print("enter c  ");
+        int c = scanner.nextInt();
+
+        System.out.println("output" + Task19.redTicket(a, b, c));
     }
 
 
-    public String fizzString(String str) {
+    public static String fizzString(String str) {
         if (str.startsWith("f") && str.endsWith("b")) {
             return "FizzBuzz";
         } else if (str.startsWith("f")) {
