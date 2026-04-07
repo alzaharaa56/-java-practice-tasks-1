@@ -43,12 +43,19 @@ public class Main {
 
         //System.out.println("output " + Task20.shareDigit(num1, num2));
 
-        System.out.print("TEMPERATURE ");
-        int temp = scanner.nextInt();
-        System.out.print("CHOOSE (true/false): ");
-        boolean isSummer = scanner.nextBoolean();
+       // System.out.print("TEMPERATURE ");
+       // int temp = scanner.nextInt();
+       // System.out.print("CHOOSE (true/false): ");
+       // boolean isSummer = scanner.nextBoolean();
 
-        System.out.println("output" + "  "+ Task21.squirrelPlay(temp, isSummer));
+        //System.out.println("output" + "  "+ Task21.squirrelPlay(temp, isSummer));
+
+        System.out.print("day (0-6)");
+        int day = scanner.nextInt();
+        System.out.print("ARE YOU ON VACATION (true/false): ");
+        boolean isVacation = scanner.nextBoolean();
+
+        System.out.println("alarm clock " + Task22.alarmClock(day, isVacation));
 
 
 
