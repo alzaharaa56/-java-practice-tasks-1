@@ -26,15 +26,26 @@ public class Main {
 
 
 
-        Scanner scanner=new Scanner(System.in);
-        System.out.print("enter a  ");
-        int a = scanner.nextInt();
-        System.out.print("enter b  ");
-        int b = scanner.nextInt();
-        System.out.print("enter c  ");
-        int c = scanner.nextInt();
+       Scanner scanner=new Scanner(System.in);
+       // System.out.print("enter a  ");
+       // int a = scanner.nextInt();
+       // System.out.print("enter b  ");
+      //  int b = scanner.nextInt();
+      //  System.out.print("enter c  ");
+      //  int c = scanner.nextInt();
 
-        System.out.println("output" + Task19.redTicket(a, b, c));
+       // System.out.println("output" + Task19.redTicket(a, b, c));
+
+        System.out.print("enter num1 (10-99 )");
+        int num1 = scanner.nextInt();
+        System.out.print("enter num2 (99 -10)");
+        int num2 = scanner.nextInt();
+
+        System.out.println("output " + Task20.shareDigit(num1, num2));
+
+
+
+
     }
 
 
