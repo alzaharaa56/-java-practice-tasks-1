@@ -56,10 +56,15 @@ public class Main {
         //boolean isVacation = scanner.nextBoolean();
 
        // System.out.println("alarm clock " + Task22.alarmClock(day, isVacation));
-        System.out.print("enter num: ");
-        int n = scanner.nextInt();
+        //System.out.print("enter num: ");
+        //int n = scanner.nextInt();
 
-        System.out.println("private number" + Task23.specialEleven(n));
+        //System.out.println("private number" + Task23.specialEleven(n));
+
+        System.out.print("enter num: ");
+        int n24 = scanner.nextInt();
+
+        System.out.println("rea" + Task24.less20(n24));
 
 
 
