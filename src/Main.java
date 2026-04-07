@@ -75,11 +75,20 @@ public class Main {
 
         //System.out.println("answer" + Task25.answerCell(morning, mom, asleep));
 
-        System.out.print("enter num: ");
-        int n26 = scanner.nextInt();
+       // System.out.print("enter num: ");
+        //int n26 = scanner.nextInt();
 
-        System.out.println("output " + Task26.fizzString2(n26));
+       // System.out.println("output " + Task26.fizzString2(n26));
 
+
+        System.out.print("enter a: ");
+        int a27 = scanner.nextInt();
+        System.out.print("enter b: ");
+        int b27 = scanner.nextInt();
+        System.out.print("enterc: ");
+        int c27 = scanner.nextInt();
+
+        System.out.println( Task27.twoAsOne(a27, b27, c27));
 
 
 
