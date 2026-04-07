@@ -81,14 +81,23 @@ public class Main {
        // System.out.println("output " + Task26.fizzString2(n26));
 
 
-        System.out.print("enter a: ");
-        int a27 = scanner.nextInt();
-        System.out.print("enter b: ");
-        int b27 = scanner.nextInt();
-        System.out.print("enterc: ");
-        int c27 = scanner.nextInt();
+       // System.out.print("enter a: ");
+       // int a27 = scanner.nextInt();
+       // System.out.print("enter b: ");
+        //int b27 = scanner.nextInt();
+       // System.out.print("enterc: ");
+        //int c27 = scanner.nextInt();
 
-        System.out.println( Task27.twoAsOne(a27, b27, c27));
+       // System.out.println( Task27.twoAsOne(a27, b27, c27));
+
+        System.out.print("v1");
+        int d1 = scanner.nextInt();
+        System.out.print("s2");
+        int d2 = scanner.nextInt();
+        System.out.print("(true/false): ");
+        boolean nd = scanner.nextBoolean();
+
+        System.out.println("total " + Task28.withoutDoubles(d1, d2, nd));
 
 
 
