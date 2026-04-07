@@ -61,10 +61,19 @@ public class Main {
 
         //System.out.println("private number" + Task23.specialEleven(n));
 
-        System.out.print("enter num: ");
-        int n24 = scanner.nextInt();
+       // System.out.print("enter num: ");
+        //int n24 = scanner.nextInt();
 
-        System.out.println("rea" + Task24.less20(n24));
+       // System.out.println("rea" + Task24.less20(n24));
+
+        System.out.print("morning now(true/false): ");
+        boolean morning = scanner.nextBoolean();
+        System.out.print("mather cal (true/false): ");
+        boolean mom = scanner.nextBoolean();
+        System.out.print("sleep (true/false): ");
+        boolean asleep = scanner.nextBoolean();
+
+        System.out.println("answer" + Task25.answerCell(morning, mom, asleep));
 
 
 
