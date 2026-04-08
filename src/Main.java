@@ -90,11 +90,11 @@ public class Main {
 
        // System.out.println( Task27.twoAsOne(a27, b27, c27));
 
-        System.out.print("v1");
-        int d1 = scanner.nextInt();
-        System.out.print("s2");
+       System.out.print("value of the first die");
+       int d1 = scanner.nextInt();
+        System.out.print("value of the second die");
         int d2 = scanner.nextInt();
-        System.out.print("(true/false): ");
+        System.out.print("repetition(true/false): ");
         boolean nd = scanner.nextBoolean();
 
         System.out.println("total " + Task28.withoutDoubles(d1, d2, nd));
