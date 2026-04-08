@@ -68,7 +68,7 @@ public class Main {
 
         //System.out.print("morning now(true/false): ");
         //boolean morning = scanner.nextBoolean();
-        //System.out.print("mather cal (true/false): ");
+       // System.out.print("mother call (true/false): ");
        // boolean mom = scanner.nextBoolean();
         //System.out.print("sleep (true/false): ");
        // boolean asleep = scanner.nextBoolean();
@@ -85,7 +85,7 @@ public class Main {
        // int a27 = scanner.nextInt();
        // System.out.print("enter b: ");
         //int b27 = scanner.nextInt();
-       // System.out.print("enterc: ");
+        //System.out.print("enter c: ");
         //int c27 = scanner.nextInt();
 
        // System.out.println( Task27.twoAsOne(a27, b27, c27));
